@@ -41,7 +41,7 @@ body {
 .section {
     padding: 2rem;
     background-color: white;
-    margin: 10rem;
+    margin: 3rem;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -89,4 +89,26 @@ body {
     text-align: center;
     padding: 1rem;
     color: #777;
+}
+
+
+
+li {
+    margin-bottom: 1rem;
+}
+
+/* Styles for list items within unordered lists */
+ul li {
+    margin-bottom: 0.2rem; /* Adjust the margin between list items */
+    list-style-type: disc;
+}
+
+li ul li {
+    margin-bottom: 0.1rem; /* Adjust the margin between nested ul and its list items */
+}
+
+/* Adjust the margin specifically for the first sub-list item */
+li ul li:first-child {
+    margin-top: 0.1rem; /* Adjust the margin for the first sub-list item */
+    margin-bottom:0.1rem
 }
