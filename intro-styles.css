@@ -66,18 +66,17 @@ p{
     font-size: 18px; /* Adjust the value as needed */
 }
 
+
 .text-box {
     position: absolute;
-    top: 45%; /* Adjusted to start from 45% */
+    top: calc(45% + 100px); /* Start at 45% + a little extra for margin */
     left: 8.5px;
     right: 8.5px;
-    width: 100%;
-    height: 55%; /* Adjusted to cover the remaining space */
+    bottom: 0; /* Cover the remaining space */
     background-color: rgb(231, 240, 243);
     opacity: 0.7;
     overflow-y: auto; /* Add scroll if content overflows */
 }
-
 
 .text-box p {
     color: #000000;
