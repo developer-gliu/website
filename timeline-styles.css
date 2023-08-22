@@ -89,16 +89,16 @@ h2{
 .checkpoint p {
     line-height: 27px;
     color: #fafff8;
-    font-size: large
+    font-size: 24px;
 }
 
 .checkpoint div ul{
     color: #f7f6f4;
-    font-size: large;
+    font-size: 24px;
 }
 .checkpoint div li{
     color: #f1ec9e;
-    font-size: medium;
+    font-size: 20px;
     margin-left: 5vh;
 }
 
