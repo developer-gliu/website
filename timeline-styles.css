@@ -66,12 +66,22 @@ h2{
 }
 
 .checkpoint h2{
-    color: #fff9d4;
+    color: #dbd296;
 }
 .checkpoint p {
     line-height: 27px;
-    color: #fffcd6;
+    color: #d0eec3;
     font-size: large
+}
+
+.checkpoint div ul{
+    color: #e2de9d;
+    font-size: large;
+}
+.checkpoint div li{
+    color: #f1ec9e;
+    font-size: medium;
+    margin-left: 5vh;
 }
 
 .checkpoint:nth-child(odd){
