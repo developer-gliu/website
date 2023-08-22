@@ -4,8 +4,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 50vh;
-    background-image: url("images/tahoe.jpg");
+    height: 60vh;
+    background-image: url("images/beijing.jpg");
     background-size: cover;
     background-position: center center; 
     z-index: -1;
@@ -34,7 +34,7 @@
     top: 4%;
     left: 3%;
     width: 40%;
-    height: calc(45% - 30px); 
+    height: calc(55% - 30px); 
     background-color: white;
     opacity: 0.7;
 }
@@ -68,7 +68,7 @@ p{
 
 .text-box {
     position: absolute;
-    top: calc(45vh + 50px); 
+    top: calc(55vh + 50px); 
     left: 0.5px;
     right: 0.5px;
     bottom: 0; 
